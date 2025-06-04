@@ -1,0 +1,53 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Fira+Code:wght@400;500&display=swap');
+
+@layer base {
+  html {
+    font-family: 'Inter', system-ui, sans-serif;
+  }
+  
+  body {
+    @apply bg-court-gray-light text-court-gray-dark;
+  }
+}
+
+@layer components {
+  .tennis-card {
+    @apply bg-white rounded-lg shadow-md border border-gray-200 p-6 hover:shadow-lg transition-shadow;
+  }
+  
+  .tennis-badge {
+    @apply inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium;
+  }
+  
+  .tennis-badge-green {
+    @apply tennis-badge bg-tennis-green text-white;
+  }
+  
+  .tennis-badge-orange {
+    @apply tennis-badge bg-clay-orange text-white;
+  }
+  
+  .tennis-badge-gold {
+    @apply tennis-badge bg-championship-gold text-championship-gold-dark;
+  }
+  
+  .tennis-badge-gray {
+    @apply tennis-badge bg-gray-100 text-gray-800;
+  }
+  
+  .tennis-score {
+    @apply font-mono text-lg font-bold;
+  }
+  
+  .tennis-court-bg {
+    background: linear-gradient(135deg, #228B22 0%, #32CD32 100%);
+  }
+  
+  .clay-court-bg {
+    background: linear-gradient(135deg, #CD853F 0%, #DEB887 100%);
+  }
+} 

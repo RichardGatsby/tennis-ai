@@ -1,0 +1,40 @@
+{
+  "name": "ai-tennis-tournament-frontend",
+  "version": "1.0.0",
+  "description": "AI Tennis Tournament Management Frontend - Next.js 15 Application",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "type-check": "tsc --noEmit"
+  },
+  "keywords": [
+    "tennis",
+    "tournament",
+    "nextjs",
+    "management"
+  ],
+  "author": "AI Tennis Tournament Team",
+  "license": "MIT",
+  "dependencies": {
+    "@hookform/resolvers": "^3.3.4",
+    "@tailwindcss/forms": "^0.5.7",
+    "@tailwindcss/typography": "^0.5.10",
+    "@types/node": "^20.11.24",
+    "@types/react": "^18.2.61",
+    "@types/react-dom": "^18.2.19",
+    "autoprefixer": "^10.4.18",
+    "axios": "^1.6.7",
+    "lucide-react": "^0.344.0",
+    "next": "^15.0.3",
+    "postcss": "^8.4.35",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-hook-form": "^7.50.1",
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5.3.3",
+    "zod": "^3.22.4"
+  }
+}
