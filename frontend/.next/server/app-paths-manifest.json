@@ -1,8 +1,0 @@
-{
-  "/_not-found/page": "app/_not-found/page.js",
-  "/(dashboard)/dashboard/page": "app/(dashboard)/dashboard/page.js",
-  "/(dashboard)/tournaments/page": "app/(dashboard)/tournaments/page.js",
-  "/(dashboard)/tournaments/[id]/page": "app/(dashboard)/tournaments/[id]/page.js",
-  "/(dashboard)/tournaments/create/page": "app/(dashboard)/tournaments/create/page.js",
-  "/(dashboard)/matches/page": "app/(dashboard)/matches/page.js"
-}
